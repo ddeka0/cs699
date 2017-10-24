@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_all" android:icon="@drawable/bbc_world"
+            android:title="All News" />
+        <item android:id="@+id/nav_sports" android:icon="@drawable/football"
+            android:title="Sports" />
+        <item android:id="@+id/nav_science" android:icon="@drawable/science"
+            android:title="Science" />
+        <item android:id="@+id/nav_politics" android:icon="@drawable/capitol"
+            android:title="Politics" />
+        <item android:id="@+id/nav_bussiness" android:icon="@drawable/econ"
+            android:title="Bussiness" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item android:id="@+id/nav_logout" android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
